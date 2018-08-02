@@ -24,7 +24,7 @@ body {
     }
 
     nav {
-        position: relative !important;
+        position: static !important;
         margin: 0 !important;
         padding: 0 !important;
         width: 100% !important;
@@ -78,7 +78,6 @@ header h1 {
 }
 
 nav {
-    z-index: 9;
     position: fixed;
     top: 52px;
     left: 0;
@@ -106,7 +105,6 @@ nav li {
 }
 
 main {
-    z-index: 8;
     margin-left: 21vw;
     margin-top: 52px;
     background-color: white;
